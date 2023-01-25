@@ -4,9 +4,7 @@ import SocialIcons from '../Footer/Icons'
 function Test() {
   return (
 <>
-
 <h1>Text</h1>
-
 </>
 
     )

@@ -1,12 +1,7 @@
 
-import Navbar from '../../components/Home/Navbar/Navbar'
-import Footer from '../../components/Home/Footer/Footer'
-
 export default function Resume() {
   return (
-
 <>
-
 <main className="font-jost hyphens-manual">
         <div className="max-w-7xl p-2 mx-auto my-auto bg-gray-100 border-2 border-gray-700 print:border-0 page print:max-w-letter print:mx-0 print:my-o md:max-w-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 lg:mb-6  print:bg-white ">
           <header className="inline-flex items-baseline justify-between w-full align-top border-b-2 mb-3">
@@ -265,9 +260,7 @@ export default function Resume() {
                   </div>
                 </section></div>
             </section></div></div></main>
-
 </>
-
   )
 }
 
