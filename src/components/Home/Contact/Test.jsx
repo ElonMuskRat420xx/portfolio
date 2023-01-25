@@ -4,7 +4,9 @@ import SocialIcons from '../Footer/Icons'
 function Test() {
   return (
 <>
-<h1>Text</h1>
+
+<h1>This Is A Test To Check Git Pull</h1>
+
 </>
 
     )
