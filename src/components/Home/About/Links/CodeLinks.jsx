@@ -1,4 +1,5 @@
-import styles from './ContactCode.module.css';
+
+import styles from './CodeLinks.module.css';
 
 const contactItems = [
   {
@@ -33,6 +34,8 @@ const contactItems = [
   },
 ];
 
+
+
 const ContactCode = () => {
   return (
     <div className={styles.code}>
@@ -59,6 +62,7 @@ const ContactCode = () => {
       ))}
       <p className={styles.line}>&#125;</p>
     </div>
+
   );
 };
 
