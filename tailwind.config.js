@@ -34,17 +34,13 @@ module.exports = {
         '90vh': '90vh'
       },
       colors: {
-        blue: '#232946',
-        pink: '#EEBBC3',
-        violet: '#B8C1EC',
-        white: '#FFFFFE',
-
+     
         gray: {
           150: "#fdfdfd",
           250: "#24262d",
           550: "#8b9cbe",
           650: "#555e70",
-          750: "#343a40",
+          750: "#343a40",   
         },
       },
       animation: {

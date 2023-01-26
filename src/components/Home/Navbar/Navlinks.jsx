@@ -3,6 +3,11 @@ const navlinks = [
       title: 'Home',
       href: '/'
     },
+
+    {
+      title: 'About',
+      href: '/About'
+    },
     
     {
       title: 'Resume',

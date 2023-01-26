@@ -1,10 +1,12 @@
 import React from 'react'
-import Test from './Test'
 
 function Contact() {
   return (
+    
     <>
-<Test/>
+
+<h1 className="text-3xl font-bold text-gray-800 my-2">Contact Page</h1>
+
     </>
 
   )
