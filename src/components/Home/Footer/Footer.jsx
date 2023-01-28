@@ -1,5 +1,5 @@
 import React from "react";
-import SocialIcons from "./Icons";
+import SocialIcons from "../Icons/Social";
 
 function Footer() {
   return (

@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import {SocialIcons, PaperIcon} from '../Footer/Icons'
-import ContactCode from './Links/CodeLinks'
-
+import { PaperIcon } from '../Icons/Paper'
 
 function AboutSection () {
   return (
@@ -17,7 +15,6 @@ function AboutSection () {
     <button className="bg-gray-800 hover:bg-[#1e222a] text-white font-bold my-4 py-2 px-4 rounded-[2px] flex items-center gap-2">
       <PaperIcon /> Resume
     </button>
-    <ContactCode />
     </Link>
   </div>
   
