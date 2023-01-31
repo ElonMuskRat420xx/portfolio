@@ -17,7 +17,7 @@ const NavItem = ({ href, title }) => {
           ${router.asPath === href ? "border-l-[1px] md:border-none" : ""} 
           `}
         >
-          <p className="font-primary text-lg transition duration-500 ease-in-out transform md:hover:-translate-y-2 text-white font-bold md:hover:text-[#7EC7A2]">
+          <p className="font-primary text-lg transition duration-500 ease-in-out transform md:hover:-translate-y-2 text-white font-semiSbold md:hover:text-[#7EC7A2]">
             {title}
           </p>
         </li>
