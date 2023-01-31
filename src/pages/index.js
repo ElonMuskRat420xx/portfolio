@@ -1,7 +1,7 @@
 
-import Hero from '../components/Home/Hero'
-import Underlay from '../components/Home/Hero/Underlay'
-import Terminal from '../components/Home/Terminal/Terminal'
+import Hero from '../components/Main/Hero'
+import Underlay from '../components/Main/Hero/Underlay'
+import Terminal from '../components/Main/Terminal/Terminal'
 
 export default function Connect() {
   return (
@@ -9,8 +9,8 @@ export default function Connect() {
 <>
 <main>
 
-<Terminal/>
-
+<Underlay/>
+<Hero/>
 
 </main>
 </>

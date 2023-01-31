@@ -1,13 +1,9 @@
+import AboutSection from "../../components/Main/About/About";
 
-import AboutSection from '../../components/Home/About/About'
-
-export default function AboutPage () {
+export default function AboutPage() {
   return (
-
-<>
-<AboutSection/>
-</>
-
-  )
+    <>
+      <AboutSection />
+    </>
+  );
 }
-

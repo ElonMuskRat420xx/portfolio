@@ -1,13 +1,9 @@
-
-import Contact from '../../components/Home/Contact/Contact'
+import Contact from "../../components/Main/Contact/Contact";
 
 export default function Connect() {
   return (
-
-<>
-<Contact/>
-</>
-
-  )
+    <>
+      <Contact />
+    </>
+  );
 }
-

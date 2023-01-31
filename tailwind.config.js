@@ -1,86 +1,84 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
 const plugin = require("tailwindcss/plugin");
-const { fontFamily } = require('tailwindcss/defaultTheme')
-
+const { fontFamily } = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
 
   theme: {
+    /* For Letter size */
+    screens: {
+      print: { raw: "print" },
+      xsm: "500px",
+      sm: "640px",
+      md: "833px",
+      lg: "1079.5px",
+      xl: "1280px",
+    },
     extend: {
       fontFamily: {
-        sans: ['var(--font-myFont)', ...fontFamily.sans],
-      },
-      transitionDuration: {
-        0: '0ms',
-        2000: '7000ms'
+        primary: ["var(--jost-font)", ...fontFamily.sans],
+        serif: ["var(--jost-font)", ...fontFamily.serif],
       },
       fontSize: {
-        '1xl': '4.4rem',
-        '2xl': '3.3rem',
-        '3xl': '2.5rem',
-        '4xl': '1.9rem',
-        '5xl': '1.5rem',
-        '6xl': '1.4rem',
-        '7xl': '1.0rem',
-        sm: '0.7rem'
+        sm2: "0.69rem", // 15px label
+        sm: "0.7rem",
+        base: "0.75rem", // 16px base
+        md: "1.0625rem", // 17px body
+        lg: "1.125rem", // 18px heading
+        xl: "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.85rem",
+        "4xl": "2.25rem",
+        "5xl": "2.65rem",
+      },
+      lineHeight: {
+        snugish: "1.25",
+        normal: "1.34",
+      },
+      maxWidth: {
+        letter: "72rem",
+      },
+      height: {
+        letter: "86.9375rem",
+        "letter-col": "71.625rem",
+        "letter-col-full": "77.9375rem",
       },
       spacing: {
-        '25p': '25%',
-        '35p': '35%',
-        '50p': '50%',
-        '75p': '75%',
-        '84.5vh': '84.5vh',
-        '80vh': '80vh',
-        '90vh': '90vh'
+        0.5: "2px", // 2px
+        1.5: "0.375rem", // 6px
+        1.6: "0.4375rem", // 7px
+        2.1: "0.5625rem", // 9px
+        2.5: "10px", // 10px
+        3.2: "0.8125rem", // 16px
+        4.5: "1.125rem", // 8px
+        11: "2.75rem", // 44px (once)
       },
       colors: {
-     
+        transparent: "transparent",
+        current: "currentColor",
+
+        black: "#24262d",
+        white: "#fdfdfd",
+
         gray: {
           150: "#fdfdfd",
           250: "#24262d",
           550: "#8b9cbe",
           650: "#555e70",
-          750: "#343a40",   
+          750: "#343a40",
+          ...defaultTheme.colors.gray,
         },
+        link: "#b2bfd9",
       },
-      animation: {
-        changewidth: 'width 2s ease-in-out infinite',
-        spin: 'spin 8s linear infinite',
-        absoluteright: 'absoluteright 4s ease-in infinite',
-        translateright: 'translateright 1.5s ease-in-out infinite'
-      },
-      boxShadow: {
-        'light-xl': '0 15px 30px -15px rgba(256, 256, 256, 0.3)',
-        'light-2xl': '-1px 6px 13px 0px rgba(0,0,0,0.44)',
-        'light-3xl': '0 25px 60px rgba(255,255,255, 0.1), 0 19px 30px rgba(255,255,255, 0.1)',
-        'light-4xl': '0 45px 100px rgba(220,220,220, 0.3), 0 16px 40px rgba(220,220,252205, 0.3)',
-        'violet-5xl': '0px 6px 58px -8px rgba(184,193,236,0.36)'
-      },
-      keyframes: {
-        width: {
-          '0%, 100%': { width: '20px' },
-          '50%': { width: '40%' }
-        },
-        absoluteright: {
-          '0%,100%': {
-            right: '0px'
-          },
-          '50%': {
-            right: '-30px'
-          }
-        },
-        translateright: {
-          '0%,100%': {
-            'margin-left': '0px'
-          },
-          '50%': {
-            'margin-left': '20px'
-          }
-        }
-      }
-    }
+    },
   },
 
+  variants: {
+    textColor: ["responsive", "hover", "focus", "group-hover"],
+    margin: ["responsive", "last", "first"],
+    padding: ["responsive", "last"],
+  },
 
   plugins: [
     plugin(function ({ addBase, addUtilities, theme }) {
@@ -89,7 +87,6 @@ module.exports = {
           "-webkit-font-smoothing": "subpixel-antialiased",
         },
       });
- 
       /**
        * Typography Utilities
        */
@@ -217,5 +214,3 @@ module.exports = {
     }),
   ],
 };
-
-
