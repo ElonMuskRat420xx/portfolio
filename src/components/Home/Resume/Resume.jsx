@@ -6,15 +6,23 @@ function CV() {
    <div className="max-w-7xl p-2 mx-auto my-auto print:border-0 page print:max-w-letter print:mx-0 print:my-o md:max-w-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 lg:mb-6 print:bg-white ">
      <header className="inline-flex items-baseline justify-between w-full align-top border-b-2 mb-3">
        <div className="block">
-         <h1 className="mb-0 text-5xl font-bold text-gray-750"> Gregor L K Nelson </h1> {/*Job Title-------------------------------------------------------------------------------------------------------*/} <h2 className="m-0 ml-2 text-2xl font-semibold text-gray-700 leading-snugish"> Engineering Undergraduate </h2> {/*Location -------------------------------------------------------------------------------------------------------*/} <h3 className="m-0 mt-2 ml-2 mb-2 font-semibold text-md text-gray-550 leading-snugish"> Aberdeenshire, Scotland (AB54) </h3>
+         <h1 className="mb-0 text-5xl font-bold text-gray-750"> Gregor L K Nelson </h1> 
+         {/*Job Title-------------------------------------------------------------------------------------------------------*/}
+         <h2 className="m-0 ml-2 text-2xl font-semibold text-gray-700 leading-snugish"> Engineering Undergraduate </h2> 
+         {/*Location -------------------------------------------------------------------------------------------------------*/}
+         <h3 className="m-0 mt-2 ml-2 mb-2 font-semibold text-md text-gray-550 leading-snugish"> Aberdeenshire, Scotland (AB54) </h3>
        </div>
        <div className="justify-between px-2 mt-0 mb-5 text-3xl font-bold leading-none text-gray-200 initials-container bg-gray-750 print:bg-black" style={{paddingBottom: '1.5rem', paddingTop: '1.5rem'}}>
-         <div className="text-center initial">G</div>
-         <div className="text-center initial">L</div>
-         <div className="text-center initial">K</div>
+         <div className="text-center ">G</div>
+         <div className="text-center ">L</div>
+         <div className="text-center ">K</div>
        </div>
      </header>
-     <div className="col-gap-16 md:col-count-2 print:col-count-2 col-fill-balance"> {/*-----------------------------------------------------------------------------------*/} {/* Contact Information --------------------------------------------------------------*/} {/*-----------------------------------------------------------------------------------*/} <section className="pb-2 mt-2 first:mt-0">
+     <div className="col-gap-16 md:col-count-2 print:col-count-2 col-fill-balance"> 
+     {/*-----------------------------------------------------------------------------------*/} 
+     {/* Contact Information --------------------------------------------------------------*/} 
+     {/*-----------------------------------------------------------------------------------*/} 
+     <section className="pb-2 mt-2 first:mt-0">
          <div className="break-inside-avoid">
            <section className="pb-2 border-b-2 break-inside-avoid">
              <ul className="list-inside pr-2 grid grid-cols-2">
@@ -37,7 +45,11 @@ function CV() {
              </ul>
            </section>
          </div>
-       </section> {/*-----------------------------------------------------------------------------------*/} {/*Summary ---------------------------------------------------------------------------*/} {/*-----------------------------------------------------------------------------------*/} <section className="pb-2 mt-2 border-b-2 first:mt-0">
+       </section> 
+       {/*-----------------------------------------------------------------------------------*/}
+       {/*Summary ---------------------------------------------------------------------------*/}
+       {/*-----------------------------------------------------------------------------------*/} 
+       <section className="pb-2 mt-2 border-b-2 first:mt-0">
          <div className="break-inside-avoid">
            <h2 className="mb-2 text-lg font-bold tracking-widest text-gray-700 print:font-normal"> SUMMARY </h2>
            <section className="mb-2 break-inside-avoid">
@@ -45,13 +57,17 @@ function CV() {
              <ul className="mt-2.1 text-md text-gray-700 leading-normal">
                <li className="pb-2">Highly motivated and skilled engineering undergraduate, Eager to apply technical expertise and problem-solving skills to a challenging and dynamic career. Strong foundation in engineering principles and practical experience gained through internships and projects, confident abilities to make valuable contributions to any team. Proactive and detail-oriented, with excellent communication and analytical skills. Constantly seeking opportunities to learn and grow with a strong desire to take on new challenges and responsibilities.</li>
                <li className="pb-2"> Diverse range of skills in several applied mechanical and electrical aspects at a practical level. Practised command in the general inspection, maintenance and repair across a range of mechanized systems. </li>
-               <li className> Robust computational literacy with a diverse knowledge base, including proficiency in scripting, markup, shell, and command languages. Adept in agile methodologies and programming best practices, as well as familiarity with multiple operating systems, software development tools, and networking concepts. </li>
+               <li> Robust computational literacy with a diverse knowledge base, including proficiency in scripting, markup, shell, and command languages. Adept in agile methodologies and programming best practices, as well as familiarity with multiple operating systems, software development tools, and networking concepts. </li>
              </ul>
              <p />
            </section>
          </div>
-       </section> {/*-----------------------------------------------------------------------------------*/} {/*Experience -------------------------------------------------------------------------*/} {/*-----------------------------------------------------------------------------------*/} <section className="pb-2 mt-2 border-b-2 first:mt-0">
-         <div className>
+       </section> 
+       {/*-----------------------------------------------------------------------------------*/}
+       {/*Experience -------------------------------------------------------------------------*/}
+       {/*-----------------------------------------------------------------------------------*/} 
+       <section className="pb-2 mt-2 border-b-2 first:mt-0">
+         <div>
            <h2 className="mb-2 text-lg font-bold tracking-widest text-gray-700 print:font-normal"> EXPERIENCE </h2>
            <section className="mb-2 break-inside-avoid">
              <header>
@@ -104,7 +120,7 @@ function CV() {
                <p className="leading-normal text-md text-gray-550"> May 2014 – August 14 | Classic Abode </p>
              </header>
              <ul className="mt-2.1 text-md text-gray-700 leading-normal">
-               <li className>
+               <li>
                  <span className="transform -translate-y-px select-none text-gray-550" />
                  <p className="pb-2"> Seasonal worker for a small landscaping company. Assisting the owner in a variety of groundworks projects, including land clearing and levelling, Re-seeding and turfing, Construction of patios and decks, Slabbing pathways and general gardening.</p>
                  <p> Recognized for a strong work ethic and the ability to deal with customers in a courteous and professional manner. </p>
@@ -112,7 +128,11 @@ function CV() {
              </ul>
            </section>
          </div>
-       </section> {/*-----------------------------------------------------------------------------------*/} {/*Education -------------------------------------------------------------------------*/} {/*-----------------------------------------------------------------------------------*/} <section className="pb-2 mt-2 border-b-2 first:mt-0">
+       </section>
+       {/*-----------------------------------------------------------------------------------*/}
+       {/*Education -------------------------------------------------------------------------*/}
+       {/*-----------------------------------------------------------------------------------*/}
+       <section className="pb-2 mt-2 border-b-2 first:mt-0">
          <div className="break-inside-avoid">
            <h2 className="mb-2 text-lg font-bold tracking-widest text-gray-700 print:font-normal"> EDUCATION </h2>
            <section className="pb-2 mt-2 mb-2 border-b-2 break-inside-avoid">
@@ -170,10 +190,10 @@ function CV() {
                <h3 className="font-semibold text-gray-700 text-lg leading-snugish"> Mechanical </h3>
              </header>
              <div className="my-1 last:pb-1">
-               <ul className="flex flex-wrap text-mb leading-relaxed -mr-1.6 -mb-1">
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Metalworking &amp; Fabrication </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> GMAW/GTAW/SMAW Welding </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Manual Machining </li>
+               <ul className="flex flex-wrap text-mb leading-relaxed gap-2">
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Metalworking &amp; Fabrication </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> GMAW/GTAW/SMAW Welding </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Manual Machining </li>
                </ul>
              </div>
            </section>
@@ -182,11 +202,11 @@ function CV() {
                <h3 className="font-semibold text-gray-700 text-lg leading-snugish"> Engineering </h3>
              </header>
              <div className="my-1 last:pb-1">
-               <ul className="flex flex-wrap text-mb leading-relaxed -mr-1.6 -mb-1">
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Solidworks </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> AutoCAD </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Fusion 360 </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Matlab/Simulink </li>
+               <ul className="flex flex-wrap text-mb leading-relaxed gap-2">
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Solidworks </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> AutoCAD </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Fusion 360 </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Matlab/Simulink </li>
                </ul>
              </div>
            </section>
@@ -195,17 +215,17 @@ function CV() {
                <h3 className="font-semibold text-gray-700 text-lg leading-snugish"> Programming &amp; Web Devolpment </h3>
              </header>
              <div className="my-1 last:pb-1">
-               <ul className="flex flex-wrap text-mb leading-relaxed -mr-1.6 -mb-1">
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> HTML/CSS </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Javascript </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> React/Next.JS </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Python </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Virtualization/Containers </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Git/Version Control </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Linux/Unix CLI </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Nginx/Apache </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Bash/Powershell </li>
-                 <li className="px-2.5 mr-1.6 mb-1 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Neovim/Vi</li>
+               <ul className="flex flex-wrap text-mb leading-relaxed gap-2">
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> HTML/CSS </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Javascript </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> React/Next.JS </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Python </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Virtualization/Containers </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Git/Version Control </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Linux/Unix CLI </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Nginx/Apache </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Bash/Powershell </li>
+                 <li className="px-2.5 text-gray-200 leading-relaxed print:bg-white print:border-inset bg-gray-250"> Neovim/Vi</li>
                </ul>
              </div>
            </section> {/*-----------------------------------------------------------------------------------*/} <section className="mt-2 first:mt-0">
@@ -216,7 +236,7 @@ function CV() {
                    <h3 className="text-lg font-semibold text-gray-700 leading-snugish"> Automotive </h3>
                  </header>
                  <ul className="mt-1 text-md text-gray-700 leading-normal">
-                   <li className>
+                   <li>
                      <span className="transform -translate-y-px select-none text-gray-550" />
                      <p> Vehicle Repair, Restoration, Maintenance &amp; Diagnosis </p>
                    </li>
@@ -227,7 +247,7 @@ function CV() {
                    <h3 className="text-lg font-semibold text-gray-700 leading-snugish"> Finance </h3>
                  </header>
                  <ul className="mt-1 text-md text-gray-700 leading-normal">
-                   <li className>
+                   <li>
                      <span className="transform -translate-y-px select-none text-gray-550" />
                      <p> Macro Economics, Trading &amp; Investing </p>
                    </li>
@@ -238,7 +258,7 @@ function CV() {
                    <h3 className="text-lg font-semibold text-gray-700 leading-snugish"> Technology </h3>
                  </header>
                  <ul className="mt-1 text-md text-gray-700 leading-normal">
-                   <li className>
+                   <li>
                      <span className="transform -translate-y-px select-none text-gray-550" />
                      <p> Classical Computing, FOSS Software, Linux, Programming </p>
                    </li>

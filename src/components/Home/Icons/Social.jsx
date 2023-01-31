@@ -1,5 +1,5 @@
 
-import { AiFillGithub, AiOutlineMail, AiOutlineTwitter } from "react-icons/ai";
+import { GitHub, Twitter, Mail } from "react-feather";
 
 const SocialIcons = () => (
     <span className="flex gap-x-5">
@@ -9,7 +9,7 @@ const SocialIcons = () => (
         aria-label="Email"
         title="Email"
       >
-        <AiOutlineMail />
+        <Mail color="#fdfdfd" size={22}  strokeWidth={1.25}/>
       </a>
       <a
         href="https://github.com/ElonMuskRat420xx"
@@ -19,7 +19,7 @@ const SocialIcons = () => (
         aria-label="Github"
         title="Github"
       >
-        <AiFillGithub />
+        <GitHub color="#fdfdfd" size={22} strokeWidth={1.25}/>
       </a>
       <a
         href="nitter.glkn.xyz"
@@ -29,7 +29,7 @@ const SocialIcons = () => (
         aria-label="Twitter"
         title="Twitter"
       >
-        <AiOutlineTwitter />
+        <Twitter color="#fdfdfd" size={22}  strokeWidth={1.25} />
       </a>
     </span>
   )

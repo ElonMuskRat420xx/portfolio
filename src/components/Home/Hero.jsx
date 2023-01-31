@@ -11,7 +11,7 @@ import { Model } from "../3D/Model";
 function Hero() {
   return (
     <>
-      <div className="w-screen h-screen z-5">
+      <div className="w-screen h-screen z-5 static">
         <Canvas>
           <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
           <pointLight position={[10, 10, -10]} />
