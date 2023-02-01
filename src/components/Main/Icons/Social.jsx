@@ -22,7 +22,17 @@ const SocialIcons = () => (
         <GitHub color="#fdfdfd" size={22} strokeWidth={1.25}/>
       </a>
       <a
-        href="nitter.glkn.xyz"
+        href="https://nitter.glkn.xyz"
+        target="_blank"
+        rel="noreferrer"
+        className="group cursor-pointer text-fore-subtle"
+        aria-label="Twitter"
+        title="Twitter"
+      >
+        <Twitter color="#fdfdfd" size={22}  strokeWidth={1.25} />
+      </a>
+      <a
+        href="https://nitter.glkn.xyz"
         target="_blank"
         rel="noreferrer"
         className="group cursor-pointer text-fore-subtle"
