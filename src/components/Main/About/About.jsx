@@ -5,7 +5,7 @@ import { PaperIcon } from "../Icons/Paper";
 function AboutSection() {
   return (
     <>
-      <div className="flex flex-col md:flex-row pt-10 pb-20 px-20 font-primary">
+      <div className="flex flex-col md:flex-row pt-10 pb-20 px-20 font-primary h-screen">
         <div className="md:w-1/2 md:pr-10 py-[2rem]">
           <h1 className="mb-4 text-7xl font-semibold text-gray-750">About</h1>
           <p className="text-sm sm:text-2xl text-gray-600 leading-none mb-6">

@@ -7,10 +7,9 @@ export default function Connect() {
   return (
 
 <>
-<main>
+<main className="w-full h-screen">
 
 <Underlay/>
-<Hero/>
 
 </main>
 </>

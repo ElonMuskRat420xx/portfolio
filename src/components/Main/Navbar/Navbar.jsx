@@ -2,9 +2,9 @@ import React, { useContext, useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image.js";
 import { useRouter } from "next/router";
-import { Menu } from "react-feather";
 import { navlinks } from "./Navlinks.jsx";
 import Logo from "../../../../public/logo.png";
+import { FaBars } from "react-icons/fa";
 
 const NavItem = ({ href, title }) => {
   const router = useRouter();
@@ -49,7 +49,7 @@ export default function Navbar() {
               className="text-white focus:outline-none"
               onClick={() => setShowMobileNav(!showMobileNav)}
             >
-              <Menu size={18} />
+              <FaBars size={18} />
             </button>
           </div>
         </div>

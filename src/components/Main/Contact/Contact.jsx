@@ -13,7 +13,7 @@ function Contact() {
                 Schedule a 15 minute call with me via Google meet.
               </p>
               <div className="flex flex-row justify-center lg:justify-start items-end">
-                <p>Icons</p>
+
               </div>
             </div>
           </div>

@@ -3,14 +3,14 @@ import React from "react";
 //importing typewriter-effect
 import Typewriter from "typewriter-effect";
 import HeroButton from "../Buttons/HeroButton";
-import Ps1 from "../Terminal/Prompt";
+import Icons from "./Icons";
 
 function TerminalWindow() {
   return (
     <>
       <Typewriter
         options={{
-          strings: ["Gregor Nelson", "Web Developer"],
+          strings: ["Hi,I'm", "Gregor Nelson" , ""],
           autoStart: true,
           loop: true,
         }}
@@ -24,13 +24,15 @@ export default function Underlay() {
   return (
     <>
       <div className="TypewriterFont text-9xl">
-        <div className="font-sans relative p-[2rem]">
+        <div className="mb-4 text-9xl font-sans text-gray-750 relative p-[2rem]">
           <TerminalWindow />
-          <Ps1/>
         </div>
       </div>
       <div className="HeroBtn">
+  
         <HeroButton />
+
+        <Icons/>
       </div>
     </>
   );
