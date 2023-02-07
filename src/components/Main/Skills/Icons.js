@@ -4,8 +4,8 @@ import { Icon } from "@iconify/react";
 function SkillIcons() {
   return (
     <>
-      <ul>
-        <li className="flex gap-2 ">
+      <div className="flex flex-col gap-4">
+        <ul className="flex gap-2 flex-wrap">
           <h1 className="font-bold">Cloud Providers:</h1>
           <Icon icon="fa-brands:aws" />
           AWS,
@@ -13,9 +13,9 @@ function SkillIcons() {
           DigitalOcean
           <Icon icon="codicon:azure" />
           Azure,
-        </li>
-        <li className="flex gap-2">
-          <b>OS:</b>
+        </ul>
+        <ul className="flex gap-2 flex-wrap">
+          <h1 className="font-bold">OS:</h1>
           <Icon icon="cib:windows" />
           Windows,
           <Icon icon="cib:arch-linux" />
@@ -32,15 +32,15 @@ function SkillIcons() {
           Gentoo,
           <Icon icon="cib:apple" />
           OSX,
-        </li>
-        <li className="flex gap-2">
+        </ul>
+        <ul className="flex gap-2 flex-wrap">
           <h1 className="font-bold">Configuration Managment:</h1>
           <Icon icon="cib:ansible" />
           Ansible,
           <Icon icon="cib:saltstack" />
           SaltStack
-        </li>
-        <li className="flex gap-2">
+        </ul>
+        <ul className="flex gap-2 flex-wrap">
           <h1 className="font-bold">Version Control:</h1>
           <Icon icon="cib:gitlab" />
           GitLab,
@@ -48,8 +48,8 @@ function SkillIcons() {
           GitHub,
           <Icon icon="fa:bitbucket" />
           Bitbucket
-        </li>
-        <li className="flex gap-2">
+        </ul>
+        <ul className="flex gap-2 flex-wrap">
           <h1 className="font-bold">Task Management:</h1>
           <Icon icon="akar-icons:github-fill" />
           GitHub Projects,
@@ -57,8 +57,8 @@ function SkillIcons() {
           Jira,
           <Icon icon="ci:trello" />
           Trello
-        </li>
-        <li className="flex gap-2">
+        </ul>
+        <ul className="flex gap-2 flex-wrap">
           <h1 className="font-bold">Monitoring:</h1>
           <Icon icon="simple-icons:prometheus" />
           Prometheus,
@@ -66,30 +66,30 @@ function SkillIcons() {
           Grafana,
           <Icon icon="simple-icons:pm2" />
           PM2,
-        </li>
-        <li className="flex gap-2">
+        </ul>
+        <ul className="flex gap-2 flex-wrap">
           <h1 className="font-bold">Documentation:</h1>
           <Icon icon="cib:confluence" />
           Confluence,
           <Icon icon="cib:gitlab" />
-          GitLab /
+          GitLab
           <Icon icon="cib:github" />
-          GitHub Wiki,
+          GitHub
           <Icon icon="cib:notion" />
           Notion
-        </li>
-        <li className="flex gap-2">
-          <h1 className="font-bold">Virtualisation:</h1>
+        </ul>
+        <ul className="flex gap-2 flex-wrap">
+          <h1 className="font-bold">Virtuaulsation:</h1>
           <Icon icon="cib:proxmox" />
           Proxmox,
           <Icon icon="carbon:logo-vmware" />
           VMware
           <Icon icon="simple-icons:qemu" />
           QMEU
-        </li>
-        <li className="flex gap-2">
+        </ul>
+        <ul className="flex gap-2 flex-wrap">
           <h1 className="font-bold">Programming:</h1>
-          <Icon icon="mdi:react" />
+          <Icon icon="mdi:react"/>
           React,
           <Icon icon="teenyicons:nextjs-solid" />
           Next.js,
@@ -107,8 +107,8 @@ function SkillIcons() {
           Bash,
           <Icon icon="cib:php" />
           PHP
-        </li>
-      </ul>
+        </ul>
+      </div>
     </>
   );
 }
