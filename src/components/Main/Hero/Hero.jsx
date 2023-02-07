@@ -5,7 +5,7 @@ import Icons from "./Icons";
 
 function Hero() {
   return (
-    <div className="px-8 py-8 mt-4 h-auto font-primary">
+    <div className="px-8 py-8 mt-4 font-primary" id="about">
       <div className="flex justify-left items-left">
         <div className="w-full text-left pl-4 lg:pl-20">
           <div className="w-full lg:w-2/3">

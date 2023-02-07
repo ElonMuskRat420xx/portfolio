@@ -3,7 +3,7 @@ import SkillIcons from "./Icons";
 
 function SkillsSection() {
   return (
-    <div className="px-8 py-8 h-auto font-primary">
+    <div className="px-8 py-8 h-screen font-primary" id="skills">
       <div className="flex flex-col justify-left items-left">
         <div className="w-full text-left lg:text-left pl-4 lg:pl-20">
           <div className="w-full lg:w-2/3">

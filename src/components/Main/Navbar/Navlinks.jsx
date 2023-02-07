@@ -6,7 +6,11 @@ const navlinks = [
 
   {
     title: "About",
-    href: "/About",
+    href: "#about",
+  },
+  {
+    title: "Skills",
+    href: "#skills",
   },
 
   {

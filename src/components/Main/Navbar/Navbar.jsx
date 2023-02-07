@@ -30,7 +30,7 @@ export default function Navbar() {
   const [showMobileNav, setShowMobileNav] = useState(false);
 
   return (
-    <div className={` mx-auto bg-[#1e222a] w-full z-30`}>
+    <div className={` mx-auto bg-[#1e222a] w-full  z-30`}>
       <nav className="block md:flex justify-between items-center p-2 px-8">
         <div className="flex justify-between">
           <div>
