@@ -10,7 +10,7 @@ function TerminalWindow() {
     <>
       <Typewriter
         options={{
-          strings: ["Hi,I'm", "Gregor Nelson" , ""],
+          strings: ["Hi,I'm", "Gregor Nelson", ""],
           autoStart: true,
           loop: true,
         }}
@@ -29,10 +29,9 @@ export default function Underlay() {
         </div>
       </div>
       <div className="HeroBtn">
-  
         <HeroButton />
 
-        <Icons/>
+        <Icons />
       </div>
     </>
   );
