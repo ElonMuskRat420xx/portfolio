@@ -6,7 +6,7 @@ function HeroButton() {
   return (
     <div className="flex gap-[2rem] mt-6 sm:mb-6">
       <div className="sm:col-span-1 xl:col-span-1">
-      <Link href="/About">
+      <Link href="/Contact">
         <button
           type="button"
           className="font-regular
@@ -15,7 +15,7 @@ function HeroButton() {
                     bg-[#1e222a] text-[#fdfdfd] hover:outline-none hover:bg-transparent hover:text-[#1e222a] hover:border-[#1e222a] focus:outline-none
                    "
         >
-          Know More
+          Contact
         </button>
         </Link>
 

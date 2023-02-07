@@ -2,10 +2,11 @@ import React from "react";
 import Link from "next/link";
 import { PaperIcon } from "../Icons/Paper";
 import Icons from "./Icons";
+import HeroButton from "../Buttons/HeroButton";
 
 function Hero() {
   return (
-    <div className="px-8 py-8 mt-4 font-primary" id="about">
+    <div className="h-screen px-8 py-8 mt-4 font-primary" id="about">
       <div className="flex justify-left items-left">
         <div className="w-full text-left pl-4 lg:pl-20">
           <div className="w-full lg:w-2/3">
@@ -44,10 +45,8 @@ function Hero() {
               forward to the opportunity to grow and develop skills that will
               help me reach my goals.
             </p>
-
-            <div className="">
+            <HeroButton/>
               <Icons />
-            </div>
           </div>
         </div>
       </div>
