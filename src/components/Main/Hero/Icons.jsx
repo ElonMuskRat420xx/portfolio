@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 function Icons() {
   return (
     <>
-      <div class="flex justify-left pt-2 gap-4 text-gray-700 text-5xl">
+      <div className="flex justify-left pt-2 gap-4 text-gray-700 text-5xl">
         <Link
           href="mailto:gnelson684@gmail.com"
           className="group cursor-pointer"

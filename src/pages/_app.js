@@ -1,8 +1,8 @@
 import "../index.css";
 import Head from "next/head";
-import Footer from "../components/Main/Footer/Footer";
-import Navbar from "../components/Main/Navbar/Navbar";
 import { Jost } from "@next/font/google";
+import Sidebar from "../components/Main/Navbar/Sidebar/Sidebar";
+import Navbar from "../components/Main/Navbar/Navbar";
 
 const jost = Jost({
   subsets: ["latin"],
@@ -38,11 +38,9 @@ function MyApp({ Component, pageProps }) {
         <meta httpEquiv="content-language" content="en" />
       </Head>
 
-      <Navbar />
+      <Navbar/>
 
       <Component {...pageProps} />
-
-      <Footer />
     </>
   );
 }

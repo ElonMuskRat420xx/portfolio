@@ -6,10 +6,10 @@ import HeroButton from "../Buttons/HeroButton";
 
 function Hero() {
   return (
-    <div className="h-screen px-8 py-8 mt-4 font-primary" id="about">
-      <div className="flex justify-left items-left">
-        <div className="w-full text-left pl-4 lg:pl-20">
-          <div className="w-full lg:w-2/3">
+    <div className="h-full px-2 py-2 mt-2 font-primary " id="about">
+      <div className="flex flex-col justify-left items-left">
+
+          <header className="inline-flex items-baseline justify-between w-full align-top border-b-2 mb-3">
             <div className="block">
               <h1 className="text-7xl font-bold text-gray-750">
                 Gregor L K Nelson
@@ -21,6 +21,7 @@ function Hero() {
                 Aberdeenshire, Scotland (AB54){" "}
               </h3>
             </div>
+            </header>
             <p className="mx-auto my-4 text-2xl font-regular text-gray-700 leading-snugish">
               I am an engineering undergraduate, passionate about Linux, free
               software and web development. I have always been fascinated by the
@@ -45,12 +46,9 @@ function Hero() {
               forward to the opportunity to grow and develop skills that will
               help me reach my goals.
             </p>
-            <HeroButton/>
               <Icons />
           </div>
         </div>
-      </div>
-    </div>
   );
 }
 

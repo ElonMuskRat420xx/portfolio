@@ -99,8 +99,6 @@ function SkillIcons() {
           Javascript,
           <Icon icon="bx:bxl-python" />
           Python,
-          <Icon icon="bx:bxl-python" />
-          Python,
           <Icon icon="cib:go" />
           Go
           <Icon icon="mdi:bash" />

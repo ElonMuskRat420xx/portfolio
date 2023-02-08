@@ -4,7 +4,7 @@ import Image from "next/image.js";
 import { useRouter } from "next/router";
 import { navlinks } from "./Navlinks.jsx";
 import Logo from "../../../../public/logo.png";
-import { FaBars } from "react-icons/fa";
+import { Icon } from "@iconify/react";
 
 const NavItem = ({ href, title }) => {
   const router = useRouter();
@@ -49,7 +49,7 @@ export default function Navbar() {
               className="text-white focus:outline-none"
               onClick={() => setShowMobileNav(!showMobileNav)}
             >
-              <FaBars size={18} />
+              <Icon icon="icon-park:hamburger-button" />
             </button>
           </div>
         </div>
