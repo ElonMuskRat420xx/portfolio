@@ -2,6 +2,8 @@ import SkillsSection from "../components/Main/Skills/Skills";
 import About from "../components/Main/About/About";
 import Hero from "../components/Main/Hero/Hero";
 import ExperienceSection from "../components/Main/Experience/Experience";
+import EducationSection from "../components/Main/Education/Education";
+import InterestsSection from "../components/Main/Interests/Interests";
 
 export default function Connect() {
   return (
@@ -11,6 +13,8 @@ export default function Connect() {
           <Hero />
           <SkillsSection />
           <ExperienceSection/>
+          <EducationSection/>
+          <InterestsSection/>
         </div>
       </main>
     </>
