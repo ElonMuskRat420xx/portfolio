@@ -1,10 +1,7 @@
 import React from "react";
-import Link from "next/link";
-import { PaperIcon } from "../Icons/Paper";
-import Icons from "./Icons";
-import HeroButton from "../Buttons/HeroButton";
+import Icons from "../Hero/Icons";
 
-function Hero() {
+function AboutSection() {
   return (
     <div className="h-full px-2 py-2 mt-2 font-primary " id="about">
       <div className="flex flex-col justify-left items-left">
@@ -52,4 +49,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default AboutSection;

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { PaperIcon } from "../Icons/Paper";
 
 function AboutSection() {
   return (
@@ -27,7 +26,7 @@ function AboutSection() {
               <div className="flex flex-row justify-left lg:justify-start items-end">
                 <Link href="/Resume">
                   <button className="bg-gray-800 hover:bg-[#1e222a] text-white font-bold my-4 py-2 px-4 rounded-[2px] flex items-center gap-2">
-                    <PaperIcon /> Resume
+                    Resume
                   </button>
                 </Link>
               </div>
