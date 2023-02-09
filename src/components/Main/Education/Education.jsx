@@ -11,8 +11,61 @@ function EducationSection() {
             </h2>
           </div>
         </header>
-        <div className="mx-auto my-4 text-2xl font-regular text-gray-700 leading-snugish">
-        Education Section
+        <div className="my-4 text-2xl font-regular text-gray-700 leading-snugish">
+          <section className="pb-4 mt-4 mb-4 border-b-2 break-inside-avoid">
+            <header>
+              <h3 className="flex-grow font-semibold text-gray-700 leading-snugish">
+                {" "}
+                College{" "}
+              </h3>
+              <p className="leading-normal  text-gray-550">
+                {" "}
+                2018 – Present | Associate of Science/Continuing {" "}
+              </p>
+            </header>
+            <p className="mt-1 leading-normal  text-gray-650">
+              <span className="font-semibold text-gray-700 leading-snugish">
+                {" "}
+                Major:{" "}
+              </span>{" "}
+              Computer Science
+            </p>
+            <p className="mt-1 leading-normal  text-gray-650"></p>
+            <p className="leading-normal text-gray-700 ">
+              <span className="font-semibold text-gray-700 leading-snugish">
+                {" "}
+                GPA:{" "}
+              </span>{" "}
+              x
+            </p>
+          </section>
+          <section className="pb-4 mt-4 mb-4 border-b-2 break-inside-avoid">
+            <header>
+              <h3 className="flex-grow font-semibold text-gray-700 leading-snugish">
+                {" "}
+                Community College{" "}
+              </h3>
+              <p className="leading-normal  text-gray-550">
+                {" "}
+                2018 – Present | Associate of Science/Continuing Education{" "}
+              </p>
+            </header>
+            <p className="mt-1 leading-normal  text-gray-650">
+              <span className="font-semibold text-gray-700 leading-snugish">
+                {" "}
+                Major:{" "}
+              </span>{" "}
+              Computer Science
+            </p>
+            <p className="mt-1 leading-normal  text-gray-650"></p>
+            <p className="leading-normal text-gray-700 ">
+              <span className="font-semibold text-gray-700 leading-snugish">
+                {" "}
+                GPA:{" "}
+              </span>{" "}
+              x 
+            </p>
+          </section>
         </div>
       </div>
     </div>

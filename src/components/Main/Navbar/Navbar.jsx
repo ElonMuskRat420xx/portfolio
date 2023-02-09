@@ -12,7 +12,7 @@ const NavItem = ({ href, title }) => {
     <Link href={href}>
       <>
         <li
-          className={`px-4 py-4 md:pt-4 md:px-4 md:text-left 
+          className={`px-4 md:pt-4 md:px-4 md:text-left 
   ${router.asPath === href ? "border-l-[1px] sm:border-none" : ""} 
   sm:border-none
   `}
