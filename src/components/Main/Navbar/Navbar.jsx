@@ -4,7 +4,7 @@ import Image from "next/image.js";
 import { useRouter } from "next/router";
 import { navlinks } from "./Navlinks.jsx";
 import Logo from "../../../../public/logo.png";
-import { Icon } from "@iconify/react";
+import { BiMenuAltRight } from "react-icons/bi";
 
 const NavItem = ({ href, title }) => {
   const router = useRouter();
@@ -48,10 +48,10 @@ export default function Navbar() {
           <div className="flex sm:hidden">
             <button
               type="button"
-              className="text-white focus:outline-none"
+              className="focus:outline-none"
               onClick={() => setShowMobileNav(!showMobileNav)}
             >
-              <Icon icon="icon-park:hamburger-button" />
+              <BiMenuAltRight color="white" size="2.5rem" />
             </button>
           </div>
         </div>
