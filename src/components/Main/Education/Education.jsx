@@ -11,59 +11,78 @@ function EducationSection() {
             </h2>
           </div>
         </header>
-        <div className="my-4 text-2xl font-regular text-gray-700 leading-snugish">
-          <section className="pb-4 mt-4 mb-4 border-b-2 break-inside-avoid">
+        <div className="grid grid-cols-2 text-2xl">
+          {/* Education Section 1 */}
+          <section className="pb-4 mt-4 mb-4 break-inside-avoid">
             <header>
               <h3 className="flex-grow font-semibold text-gray-700 leading-snugish">
                 {" "}
-                College{" "}
+                University Of Aberdeen
               </h3>
-              <p className="leading-normal  text-gray-550">
-                {" "}
-                2018 – Present | Associate of Science/Continuing {" "}
-              </p>
+              <p className="leading-normal  text-gray-550"> 2017 | 2021</p>
             </header>
-            <p className="mt-1 leading-normal  text-gray-650">
-              <span className="font-semibold text-gray-700 leading-snugish">
-                {" "}
-                Major:{" "}
-              </span>{" "}
-              Computer Science
-            </p>
-            <p className="mt-1 leading-normal  text-gray-650"></p>
-            <p className="leading-normal text-gray-700 ">
-              <span className="font-semibold text-gray-700 leading-snugish">
-                {" "}
-                GPA:{" "}
-              </span>{" "}
-              x
+            <p className="leading-normal  text-gray-650">
+              <span className="font-semibold text-gray-650 leading-snugish">
+                B-Eng Mechancial Engineering
+              </span>
             </p>
           </section>
-          <section className="pb-4 mt-4 mb-4 border-b-2 break-inside-avoid">
+          {/* Education Section 2 */}
+          <section className="pb-4 mt-4 mb-4 break-inside-avoid">
             <header>
               <h3 className="flex-grow font-semibold text-gray-700 leading-snugish">
                 {" "}
-                Community College{" "}
+                North East Scotland College
               </h3>
-              <p className="leading-normal  text-gray-550">
-                {" "}
-                2018 – Present | Associate of Science/Continuing Education{" "}
-              </p>
+              <p className="leading-normal  text-gray-550"> 2016 | 2017</p>
             </header>
-            <p className="mt-1 leading-normal  text-gray-650">
-              <span className="font-semibold text-gray-700 leading-snugish">
-                {" "}
-                Major:{" "}
-              </span>{" "}
-              Computer Science
+            <p className="leading-normal  text-gray-650">
+              <span className="font-semibold text-gray-650 leading-snugish">
+                HNC Electrical Engineering
+              </span>
             </p>
-            <p className="mt-1 leading-normal  text-gray-650"></p>
-            <p className="leading-normal text-gray-700 ">
-              <span className="font-semibold text-gray-700 leading-snugish">
+          </section>
+          {/* Education Section 3 */}
+          <section className="pb-4 mt-4 mb-4 break-inside-avoid">
+            <header>
+              <h3 className="flex-grow font-semibold text-gray-700 leading-snugish">
                 {" "}
-                GPA:{" "}
-              </span>{" "}
-              x 
+                ScotCan Offshore Technology Ltd
+              </h3>
+              <p className="leading-normal  text-gray-550"> 2014 | 2017</p>
+            </header>
+            <p className="leading-normal  text-gray-650">
+              <span className="font-semibold text-gray-650 leading-snugish">
+                Apprenticeship Light Motor Vehicle Technician
+              </span>
+            </p>
+          </section>
+          {/* Education Section 4 */}
+          <section className="pb-4 mt-4 mb-4 break-inside-avoid">
+            <header>
+              <h3 className="flex-grow font-semibold text-gray-700 leading-snugish">
+                {" "}
+                North East Scotland College
+              </h3>
+              <p className="leading-normal  text-gray-550"> 2014 | 2016</p>
+            </header>
+            <p className="leading-normal  text-gray-650">
+              <span className="font-semibold text-gray-650 leading-snugish">
+                HND Mechancial Engineering
+              </span>
+            </p>
+          </section>
+          {/* Education Section 5 */}
+          <section className="pb-4 mt-4 mb-4 break-inside-avoid">
+            <header>
+              <h3 className="flex-grow font-semibold text-gray-700 leading-snugish">
+                {" "}
+                Robert Gordon's College
+              </h3>
+              <p className="leading-normal  text-gray-550"> 2010 | 2014 </p>
+            </header>
+            <p className="leading-normal  text-gray-650">
+              <span className="font-semibold text-gray-650 leading-snugish"></span>
             </p>
           </section>
         </div>

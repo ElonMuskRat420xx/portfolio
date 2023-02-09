@@ -17,7 +17,7 @@ const NavItem = ({ href, title }) => {
   sm:border-none
   `}
         >
-          <p className="font-primary text-4xl transition duration-500 ease-in-out transform md:hover:-translate-y-2 text-white font-regular md:hover:text-[#7EC7A2]">
+          <p className="font-primary text-2xl transition duration-500 ease-in-out transform md:hover:-translate-y-2 text-white font-regular md:hover:text-[#7EC7A2]">
             {title}
           </p>
         </li>
