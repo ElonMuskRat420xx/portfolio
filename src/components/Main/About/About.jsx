@@ -8,9 +8,7 @@ function AboutSection() {
         <div className="flex flex-col justify-left items-left">
           <div className="w-full text-left lg:w-7/12 lg:text-left pl-4 lg:pl-20">
             <div className="w-full lg:w-2/3">
-            <h1 className="mb-0 text-5xl font-bold text-gray-750">
-                About
-              </h1>
+              <h1 className="mb-0 text-5xl font-bold text-gray-750">About</h1>
               <p className="py-2 m-0 ml-2 text-2xl font-regular text-gray-700 leading-snugish">
                 As a Mechanical Engineering undergraduate, I am passionate about
                 exploring the many facets of engineering and technology. My

@@ -89,7 +89,7 @@ function SkillIcons() {
         </ul>
         <ul className="flex gap-2 flex-wrap">
           <h1 className="font-bold">Programming:</h1>
-          <Icon icon="mdi:react"/>
+          <Icon icon="mdi:react" />
           React,
           <Icon icon="teenyicons:nextjs-solid" />
           Next.js,
