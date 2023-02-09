@@ -31,7 +31,7 @@ export default function Navbar() {
 
   return (
     <div
-      className={` sm:absolute bg-[#111828] sm:h-full w-screen sm:w-auto z-10 flex justify-center items-center rounded-[1px]`}
+      className={` sm:absolute bg-[#1e222a] sm:h-full w-screen sm:w-auto z-10 flex justify-center items-center rounded-[1px]`}
     >
       <nav className="block md:flex md:flex-col justify-between items-left px-8 w-full">
         <div className="flex justify-between">

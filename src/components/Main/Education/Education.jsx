@@ -11,9 +11,9 @@ function EducationSection() {
             </h2>
           </div>
         </header>
-        <div className="grid grid-cols-2 text-2xl">
+        <div className="grid grid-cols-2 sm:grid-cols-1 text-xl">
           {/* Education Section 1 */}
-          <section className="pb-4 mt-4 mb-4 break-inside-avoid">
+          <section className="pb-2 mt-2 mb-2 break-inside-avoid">
             <header>
               <h3 className="flex-grow font-semibold text-gray-700 leading-snugish">
                 {" "}
@@ -28,7 +28,7 @@ function EducationSection() {
             </p>
           </section>
           {/* Education Section 2 */}
-          <section className="pb-4 mt-4 mb-4 break-inside-avoid">
+          <section className="pb-2 mt-2 mb-2 break-inside-avoid">
             <header>
               <h3 className="flex-grow font-semibold text-gray-700 leading-snugish">
                 {" "}
@@ -43,7 +43,7 @@ function EducationSection() {
             </p>
           </section>
           {/* Education Section 3 */}
-          <section className="pb-4 mt-4 mb-4 break-inside-avoid">
+          <section className="pb-2 mt-2 mb-2 break-inside-avoid">
             <header>
               <h3 className="flex-grow font-semibold text-gray-700 leading-snugish">
                 {" "}
@@ -58,7 +58,7 @@ function EducationSection() {
             </p>
           </section>
           {/* Education Section 4 */}
-          <section className="pb-4 mt-4 mb-4 break-inside-avoid">
+          <section className="pb-2 mt-2 mb-2 break-inside-avoid">
             <header>
               <h3 className="flex-grow font-semibold text-gray-700 leading-snugish">
                 {" "}
@@ -73,7 +73,7 @@ function EducationSection() {
             </p>
           </section>
           {/* Education Section 5 */}
-          <section className="pb-4 mt-4 mb-4 break-inside-avoid">
+          <section className="pb-2 mt-2 mb-2 break-inside-avoid">
             <header>
               <h3 className="flex-grow font-semibold text-gray-700 leading-snugish">
                 {" "}
