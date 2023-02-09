@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
         <meta httpEquiv="content-language" content="en" />
       </Head>
 
-      <Navbar />
+      <Navbar/>
 
       <Component {...pageProps} />
     </>
