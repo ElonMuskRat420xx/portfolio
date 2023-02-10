@@ -1,132 +1,139 @@
 @import "tailwindcss/base";
- @import "tailwindcss/components";
- @import "tailwindcss/utilities";
- html {
-     font-size: 11px;
-     overflow-x: hidden;
-     
-     
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+html {
+  font-size: 11px;
+  overflow-x: hidden;
 }
 
-p{
-    padding-block: 0.5rem;
+p {
+  padding-block: 0.5rem;
 }
- a {
-     color: inherit;
-     text-decoration: none;
+a {
+  color: inherit;
+  text-decoration: none;
 }
- * {
-     box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
- ::-webkit-scrollbar {
-     width: 4px;
+::-webkit-scrollbar {
+  width: 4px;
 }
- ::-webkit-scrollbar-track {
-     background: #1e222a;
-     border-radius: 10px;
+::-webkit-scrollbar-track {
+  background: #1e222a;
+  border-radius: 10px;
 }
- ::-webkit-scrollbar-thumb {
-     background: #7ec7a2;
-     border-radius: 8px;
+::-webkit-scrollbar-thumb {
+  background: #7ec7a2;
+  border-radius: 8px;
 }
- ::-webkit-scrollbar-thumb:hover {
-     background: #7ec7a2;
+::-webkit-scrollbar-thumb:hover {
+  background: #7ec7a2;
 }
- ::selection {
-     color: #7ec7a2;
-     background: #1e222a;
+::selection {
+  color: #7ec7a2;
+  background: #1e222a;
 }
- .TypewriterFont {
-     position: absolute;
-     width: min-content;
-     height: min-content;
-     margin: 0;
-     padding: 0;
-     top: 20%;
-     left: 50%;
-     transform: translateX(-50%);
-     color: #ffff;
-     z-index: 100;
-     @media (max-width: 425px) {
-    }
+
+/* Hero & Typewriter */
+
+.TypewriterFont {
+  position: absolute;
+  width: min-content;
+  height: min-content;
+  margin: 0;
+  padding: 0;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffff;
+  z-index: 100;
+  @media (max-width: 425px) {
+  }
 }
- .HeroBtn {
-     position: absolute;
-     width: min-content;
-     height: min-content;
-     margin: 0;
-     padding: 0;
-     top: 60%;
-     left: 50%;
-     transform: translateX(-50%);
-     color: #ffff;
-     z-index: 100;
-     @media (max-width: 425px) {
-    }
+.HeroBtn {
+  position: absolute;
+  width: min-content;
+  height: min-content;
+  margin: 0;
+  padding: 0;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffff;
+  z-index: 100;
+  @media (max-width: 425px) {
+  }
 }
- .Center {
-     position: relative;
-     padding: 2rem;
-     white-space: nowrap;
-     @media (max-width: 768px) {
-    }
+.Center {
+  position: relative;
+  padding: 2rem;
+  white-space: nowrap;
+  @media (max-width: 768px) {
+  }
 }
+
 /* Icons */
- icon {
-     color: #1e222a;
-     text-align: center;
-     text-decoration: none;
-     font-family: fontawesome;
-     position: relative;
-     width: 40px;
-     height: 28px;
-     padding-top: 12px;
-     margin: 0 2px;
-     -o-transition: all 0.5s;
-     -webkit-transition: all 0.5s;
-     -moz-transition: all 0.5s;
-     transition: all 0.5s;
-     -webkit-font-smoothing: antialiased;
+
+icon {
+  color: #1e222a;
+  text-align: center;
+  text-decoration: none;
+  font-family: fontawesome;
+  position: relative;
+  width: 40px;
+  height: 28px;
+  padding-top: 12px;
+  margin: 0 2px;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-font-smoothing: antialiased;
 }
- icon:hover {
-     color: #7ec7a2;
-     cursor: pointer;
+icon:hover {
+  color: #7ec7a2;
+  cursor: pointer;
 }
+
 /* pop-up text */
- icon span {
-     color: #666;
-     position: absolute;
-     font-family: sans-serif;
-     bottom: 0;
-     left: -25px;
-     right: -25px;
-     padding: 5px 7px;
-     z-index: -1;
-     font-size: 14px;
-     visibility: hidden;
-     opacity: 0;
+
+icon span {
+  color: #666;
+  position: absolute;
+  font-family: sans-serif;
+  bottom: 0;
+  left: -25px;
+  right: -25px;
+  padding: 5px 7px;
+  z-index: -1;
+  font-size: 14px;
+  visibility: hidden;
+  opacity: 0;
 }
 /* pop-up text arrow */
 /* text pops up when icon is in hover state */
- icon:hover span {
-     bottom: -50px;
-     visibility: visible;
-     opacity: 1;
+icon:hover span {
+  bottom: -50px;
+  visibility: visible;
+  opacity: 1;
 }
-/* font awesome icons */
- icon:nth-of-type(1):before {
-     content: "\f27a";
+
+/* Education Section */
+
+.item-section {
+  display: flex;
+  align-items: flex-start;
 }
- icon:nth-of-type(2):before {
-     content: "\f099";
+
+.item-header-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
- icon:nth-of-type(3):before {
-     content: "\f113";
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  
 }
- icon:nth-of-type(4):before {
-     content: "\f1a0";
-}
- icon:nth-of-type(5):before {
-     content: "\f1a1";
-}
- 

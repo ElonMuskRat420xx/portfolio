@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function HeroButton() {
   return (
-    <div className="flex gap-4 my-8 mx-auto flex-row w-full">
+    <div className="flex gap-4 my-8 mx-auto flex-row justify-center sm:justify-start w-full">
       <div className="">
         <Link href="/Connect">
           <button

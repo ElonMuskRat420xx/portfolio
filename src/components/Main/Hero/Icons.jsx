@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 function Icons() {
   return (
     <>
-      <div className="flex justify-left pt-2 gap-4 text-gray-700 text-2xl">
+      <div className="flex justify-center sm:justify-start pt-2 gap-4 text-gray-700 text-2xl">
         <Link
           href="mailto:gnelson684@gmail.com"
           className="group cursor-pointer transition duration-500 ease-in-out transform md:hover:-translate-y-2 font-regular md:hover:text-[#7EC7A2] "

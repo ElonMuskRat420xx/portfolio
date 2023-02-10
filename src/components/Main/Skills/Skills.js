@@ -15,7 +15,7 @@ function SkillsSection() {
             </h3>
           </div>
         </header>
-        <div className="mx-auto my-4 text-2xl font-regular text-gray-700 leading-snugish">
+        <div className="my-4 text-2xl font-regular text-gray-700 leading-snugish">
           <SkillIcons />
         </div>
       </div>

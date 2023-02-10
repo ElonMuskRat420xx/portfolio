@@ -2,7 +2,7 @@ import React from "react";
 import HeroButton from "../Buttons/HeroButton";
 import Icons from "../Hero/Icons";
 
-function AboutSection() {
+function AboutMeSection() {
   return (
     <div className="px-2 py-2 mt-2 font-primary" id="about">
       <div className="flex flex-col justify-left items-left">
@@ -51,4 +51,4 @@ function AboutSection() {
   );
 }
 
-export default AboutSection;
+export default AboutMeSection;
