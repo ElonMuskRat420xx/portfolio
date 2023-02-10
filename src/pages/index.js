@@ -7,7 +7,7 @@ import AboutSection from "../components/Main/About/Hero";
 export default function Connect() {
   return (
     <>
-      <main className="font-primary hyphens-manual max-h-screen overflow-y-scroll overflow-x-hidden sm:ml-[10rem] ">
+      <main className="font-primary hyphens-manual sm:max-h-screen sm:overflow-y-scroll overflow-x-hidden sm:ml-[10rem] ">
         <div className="mx-auto my-auto page print:max-w-letter print:mx-0 print:my-o md:max-w-letter xsm:p-8 sm:p-8 md:p-8 lg:mt-6 lg:mb-6 print:bg-white ">
           <AboutSection />
           <SkillsSection />

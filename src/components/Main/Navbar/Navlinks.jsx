@@ -1,26 +1,26 @@
 const navlinks = [
   {
-    title: "Home",
-    href: "/",
-  },
-
-  {
     title: "About",
-    href: "#about",
+    href: "/#about",
   },
   {
     title: "Skills",
-    href: "#skills",
+    href: "/#skills",
   },
 
   {
-    title: "Resume",
-    href: "/Resume",
+    title: "Experience",
+    href: "/#experience",
   },
 
   {
-    title: "Contact",
-    href: "/Connect",
+    title: "Education",
+    href: "/#education",
+  },
+
+  {
+    title: "Interests",
+    href: "/#interests",
   },
 ];
 

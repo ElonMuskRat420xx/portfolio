@@ -58,7 +58,7 @@ export default function Navbar() {
         <div
           className={
             showMobileNav
-              ? "flex pt-3 transition-all "
+              ? "flex py-4 transition-all"
               : "hidden sm:flex sm:mt-auto"
           }
         >

@@ -2,7 +2,7 @@ import React from "react";
 
 function EducationSection() {
   return (
-    <div className="px-2 py-2 mt-2 font-primary" id="about">
+    <div className="px-2 py-2 mt-2 font-primary" id="education">
       <div className="flex flex-col justify-left items-left">
         <header className="inline-flex items-baseline justify-between w-full align-top border-b-2 mb-3">
           <div className="block">

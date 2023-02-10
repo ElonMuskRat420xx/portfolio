@@ -2,7 +2,7 @@ import React from "react";
 
 function ExperienceSection() {
   return (
-    <div className="px-2 py-2 mt-2 font-primary" id="about">
+    <div className="px-2 py-2 mt-2 font-primary" id="experience">
       <div className="flex flex-col justify-left items-left">
         <header className="inline-flex items-baseline justify-between w-full align-top border-b-2 mb-3">
           <div className="block">
@@ -108,6 +108,47 @@ function ExperienceSection() {
                 an operation. It was an incredibly enriching experience, and I
                 am grateful for the opportunity to have been part of such a
                 dynamic team.
+              </p>
+            </ul>
+          </section>
+          {/* Section 3 */}
+          <section className="mb-2 break-inside-avoid">
+            <header>
+              <h3 className="font-semibold text-gray-650 leading-snugish">
+                KD Marine LTD
+              </h3>
+              <p className="leading-normal text-gray-550">
+                May 2015 – July 2015 | Placement
+              </p>
+            </header>
+            <ul className="mx-auto my-2 font-regular text-gray-700 leading-snugish">
+              <p>
+                During my summer placement with an Aberdeen based offshore dive
+                services firm, I gained invaluable experience in a wide range of
+                tasks. Working closely within a small team, I was able to
+                contribute to the construction of bespoke surface control
+                panels, aiding in the servicing and maintenance of standby
+                vessels and daughter craft, and supporting with light
+                modification and repair of dive launch & recovery framing. I was
+                also entrusted with general workshop logistics, repair and
+                maintenance duties.
+              </p>
+              <p>
+                This experience provided me with the opportunity to develop my
+                technical knowledge and practical skills, as well as allowing me
+                to collaborate with an experienced team. I was also able to
+                become familiar with a wide range of equipment and tools, and
+                understand how to use them in a safe and efficient manner. I am
+                proud to have developed a deep understanding of the industry,
+                and to have added to my existing knowledge and skillset.
+              </p>
+              <p>
+                I believe that this experience has prepared me for future roles
+                in the industry, and I am excited to build on my knowledge and
+                expertise. My ambition is to always strive for excellence in my
+                work, and to continue to develop my skills and experience over
+                time. I am confident that this experience will continue to
+                benefit me as I progress in my career.
               </p>
             </ul>
           </section>

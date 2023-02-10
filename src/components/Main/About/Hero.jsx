@@ -1,9 +1,10 @@
 import React from "react";
+import HeroButton from "../Buttons/HeroButton";
 import Icons from "../Hero/Icons";
 
 function AboutSection() {
   return (
-    <div className="px-2 py-2 mt-2 font-primary " id="about">
+    <div className="px-2 py-2 mt-2 font-primary" id="about">
       <div className="flex flex-col justify-left items-left">
         <header className="inline-flex items-baseline justify-between w-full align-top border-b-2 mb-3">
           <div className="block">
@@ -43,6 +44,8 @@ function AboutSection() {
           me reach my goals.
         </p>
         <Icons />
+
+        <HeroButton/>
       </div>
     </div>
   );
